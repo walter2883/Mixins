@@ -148,6 +148,14 @@
 	margin-right: auto;
 }
 
+.column-center(@params) when (@params = 1){
+    display: block;
+    float: none;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .navbarGradient(@color1:#85215f, @color2:#590240){
 	background: @color1; /* Old browsers */
 	background: -moz-linear-gradient(top,  @color1 0%, @color2 99%); /* FF3.6+ */
